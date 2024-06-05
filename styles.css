@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fbf6f6;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f6f3f3;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #faf7f7;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Specific Styles */
+.hero {
+    background-image: url('Restaurants.jpeg');
+    background-size: cover;
+    background-position: center;   
+    color: #f8f6f5;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero div{
+    background-color: rgb(249, 43, 6);
+}
+.btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #151414;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
